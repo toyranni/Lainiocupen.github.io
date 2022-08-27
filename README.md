@@ -1,5 +1,4 @@
-# Lainiocupen.github.io
-A repository for the annual football cup in Lainio
+
 <!DOCTYPE html>
 <html>
 <body>
