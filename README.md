@@ -1,5 +1,4 @@
 
-<!DOCTYPE html>
 <html>
 <body>
 <h1> Historia om Lainiocupen </h1>
