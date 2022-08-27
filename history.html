@@ -1,12 +1,50 @@
+
+
+
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+ 
+ 
 
-<body>
- <head>
-  <title>Lainio cupens historia</title>
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #145DA0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+  display: block;
+}
+
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
 </head>
-
-<h1>Lainio cupens vinnare genom åren</h1>
+<body>
+ <h1>Lainio cupens vinnare genom åren</h1>
  <text>
 1981: IFK LAINIO <br>
 1982: PARAKKA SK<br>
@@ -56,5 +94,15 @@
 2022: PARKALOMPOLO IK<br>
   </text>
 
+<div class="sidenav">
+  <a href="#">Anmälan</a>
+  <a href="https://toyranni.github.io/history.html">Historia</a>
+  <a href="#">Spelschema</a>
+  <a href="#">Resultat</a>
+</div>
+
+<div class="main">
+</div>
+   
 </body>
-</html>
+</html> 
