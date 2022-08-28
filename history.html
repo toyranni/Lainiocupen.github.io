@@ -62,7 +62,34 @@ body {
 </style>
 </head>
 <body>
-    <h1> Fakta om cupen </h1>
+    
+
+<div class="topnav" id="myTopnav">
+  <a href="https://toyranni.github.io" class="active">Hem</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="https://toyranni.github.io/history.html">Om cupen</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+  <h2>Responsive Topnav Example</h2>
+  <p>Resize the browser window to see how it works.</p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+  <h1> Fakta om cupen </h1>
   <text> Cupen spelas varje år på klassiska Lainiovallen under mitten av juli. Speltid är 15 X 15 minuter, sjumanna. Cupen avslutas senare 
  <h2>Historia om Lainciocupen </h2>
    <text> Lainiocupen spelades för första gången 1981 och har spelats varje år sedan starten. 
@@ -120,32 +147,6 @@ body {
    
   </text>
    </center>
-
-<div class="topnav" id="myTopnav">
-  <a href="https://toyranni.github.io" class="active">Hem</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="https://toyranni.github.io/history.html">Om cupen</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-
-<div style="padding-left:16px">
-  <h2>Responsive Topnav Example</h2>
-  <p>Resize the browser window to see how it works.</p>
-</div>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
 
 </body>
 </html>
